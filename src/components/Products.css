@@ -1,0 +1,31 @@
+#products {
+  width: 100vw;
+  background: #dbe2f2;
+}
+
+.btn-primary {
+  background: var(--primary-color) !important;
+  border: none !important;
+}
+
+.product-btn {
+  font-size: 1rem;
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  margin-top: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: var(--hover-animation);
+}
+
+.product-btn:hover {
+  color: chocolate;
+}
+
+#products .card {
+  box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.4);
+}

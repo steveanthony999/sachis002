@@ -1,0 +1,13 @@
+#blog {
+  width: 100vw;
+  background: #dbe2f2;
+}
+
+.blog-shadow {
+  box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.4);
+}
+
+.card-img {
+  height: 230px;
+  margin-bottom: -2px;
+}
